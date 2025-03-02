@@ -1,6 +1,5 @@
 # 西南交通大学教务网抢课脚本
 # 仅适用于优选班抢课
-# 尚未完成(见115行代码)
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -9,7 +8,6 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 from datetime import datetime
 from logger import get_logger
-from bs4 import *
 
 # 配置信息
 USERNAME = "*************"
